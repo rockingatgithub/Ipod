@@ -7,7 +7,56 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#outer {
+  height: 160px;
+  width: 236px;
+  /* border: 1px solid black; */
+  position: relative;
+  margin-top: 150px;
+  margin-left: 566px;
+  background-color: lightgray;
+}
+
+#mid {
+  height: 160px;
+  width: 160px;
+  /* border: 1px solid black; */
+  margin-left: 37px;
+  border-radius: 80px;
+  position: relative;
+  background-color: white;
+}
+
+#inner {
+position: absolute;
+  height: 50px;
+  width: 50px;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  margin-top: 55px;
+  margin-left: 55px;
+  background-color: lightgray;
+
+}
+
+.menu-button{
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 20px;
+}
+
+#prev {
+  position: absolute;
+  margin-top: 77px;
+  margin-left: 20px;
+}
+#forward {
+  position: absolute;
+  margin-top: 77px;
+  margin-left: 125px;
+}
+#play-pause {
+  position: absolute;
+  margin-top: 125px;
+  margin-left: 73px;
 }
