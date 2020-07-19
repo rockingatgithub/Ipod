@@ -7,13 +7,57 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.App{
+  margin-top: 150px;
+  margin-left: 566px;
+}
+
+.menu-block {
+  position: relative;
+  border: 1px solid black;
+  width: 235px;
+  height: 215px;
+}
+
+#menu-list {
+  width: 40%;
+  list-style: none;
+  padding: 0px;
+  display: inline-block;
+  position: absolute;
+  height: 85%;
+  margin: 0px;
+}
+
+.list-item {
+  margin-bottom: 15px;
+}
+
+#small-img {
+  height: 100%;
+  width: 60%;
+  position: absolute;
+  margin-left: 94px;
+  margin-top: -32px;
+}
+
+#heading-list {
+  margin: 0px;
+  margin-bottom: 10px;
+  width: 40%;
+  }
+
+#img-div {
+  width: 60%;
+  display: inline-block;
+  position: relative;
+}
+
 #outer {
   height: 160px;
   width: 236px;
   /* border: 1px solid black; */
   position: relative;
-  margin-top: 150px;
-  margin-left: 566px;
   background-color: lightgray;
 }
 
@@ -23,7 +67,7 @@ body {
   /* border: 1px solid black; */
   margin-left: 37px;
   border-radius: 80px;
-  position: relative;
+  position: absolute;
   background-color: white;
 }
 
@@ -59,4 +103,8 @@ position: absolute;
   position: absolute;
   margin-top: 125px;
   margin-left: 73px;
+}
+
+.active{
+  background-color: lightslategrey;
 }
