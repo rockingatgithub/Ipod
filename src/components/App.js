@@ -15,9 +15,20 @@ class App extends Component {
     }
   }
 
+  openMenu = () => {
+    if(this.state.component !== 'menulist'){
+      this.setState({
+        component: 'menulist',
+      })
+  }
+  }
+
   openOnClick = () => {
-    this.state.component = this.state.active;
-    console.log('component is', this.state.component);
+    // this.state.component = this.state.active;
+    // console.log('component is', this.state.component);
+    this.setState({
+      component: this.state.active,
+    })
   }
   
   handleClick = () => {
@@ -75,7 +86,7 @@ class App extends Component {
         {(component === 'settings') && <Settings/>}
       <div id="outer">
         <div id="mid" onMouseDown={this.handleClick}>
-        <div className="menu-button">MENU</div>
+        <div className="menu-button" onClick={this.openMenu}>MENU</div>
           <img src="https://image.flaticon.com/icons/svg/39/39712.svg" id="prev" alt="forward" height="16px" width="16px" />
           <div id="inner" onClick={this.openOnClick} draggable="false">
           </div>
