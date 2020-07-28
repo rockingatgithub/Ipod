@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ipod/static/css/main.908edd7d.chunk.css",
-    "main.js": "/ipod/static/js/main.6537c09f.chunk.js",
-    "main.js.map": "/ipod/static/js/main.6537c09f.chunk.js.map",
-    "runtime-main.js": "/ipod/static/js/runtime-main.59161aa3.js",
-    "runtime-main.js.map": "/ipod/static/js/runtime-main.59161aa3.js.map",
-    "static/js/2.81085039.chunk.js": "/ipod/static/js/2.81085039.chunk.js",
-    "static/js/2.81085039.chunk.js.map": "/ipod/static/js/2.81085039.chunk.js.map",
-    "index.html": "/ipod/index.html",
-    "precache-manifest.ff4a6ea61150fffc97c395ac6eabd67b.js": "/ipod/precache-manifest.ff4a6ea61150fffc97c395ac6eabd67b.js",
-    "service-worker.js": "/ipod/service-worker.js",
-    "static/css/main.908edd7d.chunk.css.map": "/ipod/static/css/main.908edd7d.chunk.css.map",
-    "static/js/2.81085039.chunk.js.LICENSE.txt": "/ipod/static/js/2.81085039.chunk.js.LICENSE.txt"
+    "main.css": "/Ipod/static/css/main.908edd7d.chunk.css",
+    "main.js": "/Ipod/static/js/main.6537c09f.chunk.js",
+    "main.js.map": "/Ipod/static/js/main.6537c09f.chunk.js.map",
+    "runtime-main.js": "/Ipod/static/js/runtime-main.fb187e32.js",
+    "runtime-main.js.map": "/Ipod/static/js/runtime-main.fb187e32.js.map",
+    "static/js/2.81085039.chunk.js": "/Ipod/static/js/2.81085039.chunk.js",
+    "static/js/2.81085039.chunk.js.map": "/Ipod/static/js/2.81085039.chunk.js.map",
+    "index.html": "/Ipod/index.html",
+    "precache-manifest.ca5333ddc5a4b1c48ed1f2a551affa09.js": "/Ipod/precache-manifest.ca5333ddc5a4b1c48ed1f2a551affa09.js",
+    "service-worker.js": "/Ipod/service-worker.js",
+    "static/css/main.908edd7d.chunk.css.map": "/Ipod/static/css/main.908edd7d.chunk.css.map",
+    "static/js/2.81085039.chunk.js.LICENSE.txt": "/Ipod/static/js/2.81085039.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.59161aa3.js",
+    "static/js/runtime-main.fb187e32.js",
     "static/js/2.81085039.chunk.js",
     "static/css/main.908edd7d.chunk.css",
     "static/js/main.6537c09f.chunk.js"
