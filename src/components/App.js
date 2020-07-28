@@ -5,6 +5,9 @@ import Cover from './Cover';
 import Games from './Games';
 import Settings from './Settings';
 import MusicList from './MusicList';
+import Albums from './Albums';
+import Artists from './Artists';
+import AllSongs from './AllSongs';
 
 
 // ==============App component==============================
@@ -57,6 +60,14 @@ class App extends Component {
           document.getElementById('games').classList.remove('active');
           document.getElementById('cover').classList.add('active');
         }
+        else
+        if(context.state.component === 'music')
+        {
+          context.state.active = 'albums';
+          document.getElementById('allsongs').classList.remove('active');
+          document.getElementById('artists').classList.remove('active');
+          document.getElementById('albums').classList.add('active');
+        }
       }
       else
       if(distance>=90 && distance<180){
@@ -69,6 +80,14 @@ class App extends Component {
           document.getElementById('games').classList.remove('active');
           document.getElementById('music').classList.add('active');
         }
+        else
+        if(context.state.component === 'music')
+        {
+          context.state.active = 'artists';
+          document.getElementById('allsongs').classList.remove('active');
+          document.getElementById('albums').classList.remove('active');
+          document.getElementById('artists').classList.add('active');
+        }
       }
       else
       if(distance>=180 && distance<270){
@@ -80,6 +99,14 @@ class App extends Component {
           document.getElementById('music').classList.remove('active');
           document.getElementById('games').classList.add('active');
         }
+        else
+        if(context.state.component === 'music')
+        {
+          context.state.active = 'allsongs';
+          document.getElementById('artists').classList.remove('active');
+          document.getElementById('albums').classList.remove('active');
+          document.getElementById('allsongs').classList.add('active');
+        }
       }
       else
       if(distance>=270 && distance<360){
@@ -90,6 +117,14 @@ class App extends Component {
           document.getElementById('cover').classList.remove('active');
           document.getElementById('music').classList.remove('active');
           document.getElementById('settings').classList.add('active');
+        }
+        else
+        if(context.state.component === 'music')
+        {
+          context.state.active = 'albums';
+          document.getElementById('allsongs').classList.remove('active');
+          document.getElementById('artists').classList.remove('active');
+          document.getElementById('albums').classList.add('active');
         }
       }
     })
@@ -104,7 +139,9 @@ class App extends Component {
           {(component === 'music') && <MusicList/>}
           {(component === 'games') && <Games/>}
           {(component === 'settings') && <Settings/>}
-
+          {(component === 'albums') && <Albums/>}
+          {(component === 'artists') && <Artists/>}
+          {(component === 'allsongs') && <AllSongs/>}
 
         {/* ============== Controls component ============== */}
 

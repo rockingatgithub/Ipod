@@ -6,7 +6,7 @@ function MusicList(props) {
 
             {/* ============Status Bar=========================== */}
 
-            <div className="status bar">
+            <div className="statusbar">
                 <span>Apple</span>
                 <img className="battery" alt="battery" src="https://image.flaticon.com/icons/svg/3103/3103384.svg" />
             </div>

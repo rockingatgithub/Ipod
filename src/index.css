@@ -25,6 +25,9 @@ body {
   box-shadow: 0px 5px 11px 7px #3f3f3f;
 }
 
+.statusbar {
+  background-color: whitesmoke;
+}
 
 /* ===================Styling in app components ======================================= */
 
@@ -74,7 +77,7 @@ body {
   width: 60%;
   position: absolute;
   margin-left: 94px;
-  margin-top: -32px;
+  margin-top: -35px;
 }
 
 #heading-list {
