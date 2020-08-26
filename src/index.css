@@ -1,15 +1,13 @@
 /* =======================Styles for app=========================================== */
 
-
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 
 /* ======================Styling app component======================================= */
 
@@ -29,12 +27,23 @@ body {
   background-color: whitesmoke;
 }
 
+/* =======================instruction box============================================== */
+
+.Instruction {
+  position: absolute;
+  z-index: 10;
+  border-radius: 6px;
+  top: 70px;
+  left: 34px;
+  background-color: whitesmoke;
+}
+
 /* ===================Styling in app components ======================================= */
 
 .battery {
   margin-left: 166px;
-  height:20px;
-  width:20px;
+  height: 20px;
+  width: 20px;
 }
 
 .cover {
@@ -84,14 +93,13 @@ body {
   margin: 0px;
   margin-bottom: 10px;
   width: 40%;
-  }
+}
 
 #img-div {
   width: 60%;
   display: inline-block;
   position: relative;
 }
-
 
 /* ========================Styling the controls buttons ======================= */
 
@@ -105,7 +113,7 @@ body {
 #mid {
   height: 160px;
   width: 160px;
-  
+
   margin-left: 37px;
   border-radius: 80px;
   position: absolute;
@@ -114,26 +122,24 @@ body {
 }
 
 #inner {
-position: absolute;
+  position: absolute;
   height: 50px;
   width: 50px;
   border-radius: 50%;
   margin-top: 55px;
   margin-left: 55px;
   background-color: #4e4e4e;
-
 }
 
 /* ===========================Styling buttons================================ */
 
-
-.menu-button{
+.menu-button {
   position: absolute;
   margin-left: 55px;
   margin-top: 20px;
 }
 
-.comp-image{
+.comp-image {
   height: 100%;
   width: 100%;
 }
@@ -154,6 +160,6 @@ position: absolute;
   margin-left: 73px;
 }
 
-.active{
+.active {
   background-color: gainsboro;
 }

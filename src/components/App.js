@@ -17,8 +17,11 @@ class App extends Component {
     this.state = {
       component: "menulist",
       active: "cover",
+      instruct: true,
     };
   }
+
+  componentDidMount() {}
 
   // ====================handler for menu button============================
 
@@ -101,10 +104,40 @@ class App extends Component {
       }
     });
   };
+
+  closeInstruction = () => {
+    this.setState({
+      instruct: false,
+    });
+  };
+
   render() {
-    const { component } = this.state;
+    const { component, instruct } = this.state;
     return (
       <div className="App">
+        {instruct && (
+          <div className="Instruction">
+            <img
+              onClick={this.closeInstruction}
+              src="https://image.flaticon.com/icons/svg/271/271203.svg"
+              className="close-btn"
+              style={{ height: "12px", width: "12px", marginLeft: "10px" }}
+            />
+            <ul className="instruc-list">
+              <li className="instruc-item">
+                <span>
+                  Click-hold and rotate in circular area to go options.
+                </span>
+              </li>
+              <li className="instruc-item">
+                <span>Click middle button to select option.</span>
+              </li>
+              <li className="instruc-item">
+                <span>Click menu to go back to menulist.</span>
+              </li>
+            </ul>
+          </div>
+        )}
         <div className="cover">
           {component === "menulist" && <MenuList />}
           {component === "cover" && <Cover />}
